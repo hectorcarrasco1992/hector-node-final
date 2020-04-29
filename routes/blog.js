@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
-const Blog = require('../models/Blog');
+const express = require('express');
+const router = express.Router();
+
 const {
   getBlogs,
   createBlog,
